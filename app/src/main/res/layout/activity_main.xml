@@ -56,7 +56,7 @@
             android:id="@+id/dosjug"
             style="@style/boton"
             android:text="@string/dos_jugadores"
-            android:visibility="visible" />
+            android:visibility="invisible" />
 
         </LinearLayout>
 
