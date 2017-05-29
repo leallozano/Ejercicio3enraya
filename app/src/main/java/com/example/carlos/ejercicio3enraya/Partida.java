@@ -11,6 +11,7 @@ public class Partida {
     public Partida (int dificultad) {
         this.dificultad=dificultad;
 
+        //this.jugador=jugador;
         jugador=1;
 
         casillas = new int [9];
@@ -114,10 +115,13 @@ public class Partida {
 
         if(dificultad==2) {
 
+
+            if(casillas[4]==0 && (casillas[0]!=0 || casillas[2]!=0 || casillas[6]!=0 || casillas[8]!=0)) return 4;
             if(casillas[0]==0) return 0;
             if(casillas[2]==0) return 2;
             if(casillas[6]==0) return 6;
             if(casillas[8]==0) return 8;
+
 
         }
 

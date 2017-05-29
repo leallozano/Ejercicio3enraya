@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
         jugadores=1;
         if(vista.getId()==R.id.dosjug) {
             jugadores=2;
+
         }
 
         RadioGroup configDificultad=(RadioGroup)findViewById(R.id.configD);
